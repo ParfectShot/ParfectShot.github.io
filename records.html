@@ -1,0 +1,55 @@
+<!-- Includes base template from Base.html -->
+{% extends 'mrpash/base.html'%}
+<!-- This block contains the rest body data -->
+{% block data %}
+<!-- Css script for Table -->
+<style>
+    table.alpha{
+        border-collapse: collapse ;
+        width: 100%;
+    }
+
+    table.alpha th{
+        text-align: left;
+        background-color: #3a6070;
+        color: #FFF;
+        padding: 4px 30px 4px 8px;
+    }
+
+    table.alpha td{
+        border: 3px solid #e3e3e3;
+        padding: 4px 8px;   
+    }
+
+    table.alpha tr:nth-child(odd) td{
+        background-color: #f2f2f2
+    }
+</style>
+<!-- Records table -->
+<div class="container">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <table class="alpha" >
+        <tr>
+            <th style="color:powderblue">Name</th>
+            <th style="color:powderblue">Age</th>
+            <th style="color:powderblue">Gender</th>
+            <th style="color:powderblue">Feedback</th>
+        </tr>
+    <!-- Data extracted from out database is shown by Record function in Views.py -->      
+    {% for f in data %}
+        <tr>
+            <th style="color:seashell">{{ f.name }}</th>
+            <th style="color:seashell">{{ f.age }}</th>
+            <th style="color:seashell">{{ f.gender }}</th>
+            <th style="color:seashell">{{ f.fback }}</th>
+        </tr>    
+    {% endfor %}    
+    </table>
+</div>
+
+{% endblock %}
