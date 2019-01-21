@@ -1,0 +1,112 @@
+body{
+margin: 0;
+text-align: center;
+}
+
+div{
+  background-color: #222831;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Sacramento,cursive;
+    font-size: 73px;
+    color: #00fff5;
+}
+
+h2{
+  margin: 0;
+  font-family: Montserrat,sans-serif;
+  color: #00fff5;
+}
+
+.titlebelow{
+  font-weight: normal;
+}
+
+h3{
+  font-family: Montserrat,sans-serif;
+  color: #00fff5;
+  margin:0 auto;
+}
+
+p{
+  margin-top: 0;
+  font-family: Montserrat,sans-serif;
+  color: #00adb5;
+  padding-right: 300px;
+padding-left: 300px;
+    margin-bottom: 150px;
+}
+
+.hello{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Montserrat,sans-serif;
+  color: #00fff5;
+}
+
+.intro{
+  margin-left: 250px;
+  text-align: justify;
+  padding-right: 100px;
+}
+
+.skillsp{
+padding-left: 60px;
+padding-right: 500px;
+margin: 10px;
+text-align: justify;
+}
+.ico{
+  margin: 10px;
+  float: left;
+}
+
+.ico2{
+  float: right;
+  margin: 10px;
+}
+.cloud{
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.cloudabove{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.topcontainer{
+  padding: 100px;
+  padding-bottom: 0px;
+}
+
+.middlecontainer{
+  padding: 50px;
+  margin: auto;
+}
+
+.contact{
+  padding: 10px;
+  margin: 0;
+}
+
+.skill-row{
+  margin-top: 50px;
+  padding-right: 100px;
+}
+.skill-row2{
+  padding: 100px;
+}
+
+.pnwd{
+  margin-left: 300px;
+  margin-top: 15px;
+  text-align: justify;
+  padding-left: 80px;
+  padding-right: 80px;
+}
