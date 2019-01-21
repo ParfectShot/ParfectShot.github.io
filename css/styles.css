@@ -35,9 +35,7 @@ p{
   margin-top: 0;
   font-family: Montserrat,sans-serif;
   color: #00adb5;
-  padding-right: 300px;
-padding-left: 300px;
-    margin-bottom: 150px;
+
 }
 
 .hello{
@@ -48,15 +46,14 @@ padding-left: 300px;
 }
 
 .intro{
-  margin-left: 250px;
+
   text-align: justify;
-  padding-right: 100px;
+
 }
 
 .skillsp{
-padding-left: 60px;
-padding-right: 500px;
-margin: 10px;
+
+margin-top: 20px;
 text-align: justify;
 }
 .ico{
@@ -97,16 +94,14 @@ text-align: justify;
 
 .skill-row{
   margin-top: 50px;
-  padding-right: 100px;
+
 }
 .skill-row2{
-  padding: 100px;
+  margin-top: 100px;
 }
 
 .pnwd{
-  margin-left: 300px;
   margin-top: 15px;
   text-align: justify;
-  padding-left: 80px;
-  padding-right: 80px;
+
 }
