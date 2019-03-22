@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: parfectshot.github.io
+Token: d724803af676dfd6258f4276434bfb57cc7551c47437c45600f24f8fc78468c5
